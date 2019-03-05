@@ -38,11 +38,11 @@ p<-ggplot(rank_data,
   scale_y_continuous(breaks = c(0,25, 50, 75, 100), limits = c(0,105))+
   theme_minimal(14,"Avenir")+
   guides(color=F,fill=F)+
-  labs(title =  "Earnings female workers per age group 1979 - 2011",
+  labs(title =  "Earnings female workers per age group, 1979 - 2011",
        subtitle='Year {frame_time}',
        y = "Female salary percent of male salary (%)",
        x = "",
-       caption =  "Source: NBER \n @EdudinGonzalo") +
+       caption =  "Source: NBER | @EdudinGonzalo") +
   theme(plot.title = element_text(hjust = 1, size = 22),
        axis.ticks.y = element_blank(),
       axis.text.y  = element_blank(), 
@@ -56,6 +56,9 @@ p<-ggplot(rank_data,
 
 
 animate(p, nframes = 250, fps = 10, end_pause = 20, width = 1000)
+
+anim_save(filename =  "week_05_03_2019/output/tidytuesday_womenearnings.gif", animation = p)
+
 
 
 
