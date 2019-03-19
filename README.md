@@ -8,3 +8,5 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 - [Week 2](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-02-26) (26th February 2019): Plotting the variation of train lines in French stations between 2015 and 2018.
 
 - [Week 3](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-05) (5th March 2019): Plotting the gender gap in wages of US worker by using the female percent salary of male salary.
+
+- [Week 4](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-19) (19th March 2019): Shiny app visualising police activity with data from the Stanford Open Policing Project.
