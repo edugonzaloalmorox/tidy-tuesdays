@@ -55,11 +55,11 @@ common_complete = pets %>%
         legend.position = "bottom", legend.direction="horizontal",
         axis.text.x = element_text(angle = 0, hjust = 1)) +
   guides(fill=guide_legend(title="# Registrations", nrow=1)) +
-  labs(title = "Monthly registration of top 15 pet names in Seattle (2003 - 2018)", x ="", y = "", caption = "Source: Seattle pet names | @EdudinGonzalo") + 
+  labs(title = "When are the most common pet names in Seattle registered?" , subtitle = " Period 2003 - 2018, only dogs and cats considered", x ="", y = "", caption = "Source: Seattle pet names | @EdudinGonzalo") + 
   font("title", size = 16, color = col2, face = "bold") 
 
 
-
+ggsave("week_26_03_2019/output/heatmap.png",common_complete)
     
   
   
