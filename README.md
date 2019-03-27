@@ -10,3 +10,5 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 - [Week 3](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-05) (5th March 2019): Plotting the gender gap in wages of US worker by using the female percent salary of male salary.
 
 - [Week 4](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-19) (19th March 2019): Shiny app visualising police activity with data from the Stanford Open Policing Project.
+
+- [Week 5](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-26) (26th March 2019): Heatmap visualising the registered names of pets in Seattle.
