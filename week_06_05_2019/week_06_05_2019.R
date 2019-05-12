@@ -104,6 +104,5 @@ europe = diff_ratios %>%
         panel.background = element_rect(fill = "seashell2",
                                         size = 0.002, linetype = "solid"),
         panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank()) +
-  ggpubr::font("title", size = 16, face = "bold")
+        panel.grid.minor = element_blank()) 
 
