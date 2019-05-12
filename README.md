@@ -13,5 +13,7 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 
 - [Week 5](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-03-26) (26th March 2019): Heatmap visualising the registered names of pets in Seattle.
 
+- [Week 6](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-05-07) (7th May 2019): Visualising the variation of student to teacher ratios in European countries. 
+
 
 These materials and work are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
