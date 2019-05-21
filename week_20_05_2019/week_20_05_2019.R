@@ -82,7 +82,7 @@ mismanagement = complete_data %>%
   labs(y = "Kg per person/day", 
        x  = "GDP per capita (log)", 
        title = "Mismananged plastic waste per capita and GDP", 
-       caption = "Note: Data on plastic waste are referred to 2010. \n GDP per capita constant 2011 international $ \n
+       caption = "Note: Data on plastic waste mismanagement are referred to 2010. \n GDP per capita constant 2011 international $ \n
        @EdudinGonzalo | Source: Our World in Data") + 
   theme_minimal(16, "Avenir") +
   theme(plot.background=element_rect(fill="floralwhite"),
