@@ -18,7 +18,7 @@ seattle_pets <- readr::read_csv("https://raw.githubusercontent.com/rfordatascien
 
 pets = seattle_pets %>%
   mutate(date_clean = anytime(license_issue_date)) %>%
-  arrange(date_clean) %>%
+  arrange(date_clean)
  
   
   pets = pets %>%
