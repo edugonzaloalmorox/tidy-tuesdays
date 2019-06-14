@@ -27,7 +27,7 @@ plot = ggplot() +
              aes(x = long, y = lat, size = mass, colour = fall), alpha = .35) +
   scale_colour_manual(values = cols) +
   labs(title = "Where do meteorites land?",
-       subtitle = "Higher proportion of found meteorites (green) vs fell (orange)\n specially in US, Chile, Oman, Morocco, Lybia and Australia", 
+       subtitle = "Higher proportion of found meteorites (green) vs fell (orange)\n specially in US, Chile, Oman, Morocco, Libya and Australia", 
         caption = "Note: Sample considers 25% biggest meteorites by mass between 1900 and 2019. \n @EdudinGonzalo | NASA ") + 
   theme(legend.position = "none", 
         legend.spacing.x = unit(0.5, 'cm'),

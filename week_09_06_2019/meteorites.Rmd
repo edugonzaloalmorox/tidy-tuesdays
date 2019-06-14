@@ -1,0 +1,46 @@
+---
+title: "TidyTuesday meteorites "
+author: "Edu Gonzalo"
+date: "10/06/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+```{r}
+
+library(tidyverse)
+
+meteorites <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-06-11/meteorites.csv")
+
+
+```
+
+# EDA
+
+### How many meteorites per year
+
+```{r}
+
+  meteorites %>% 
+ count(class, sort = TRUE) %>%
+ top_n(10, n) %>%
+ggplot(aes(fct_reorder(class, n), n)) +
+  geom_bar(stat = "identity") + 
+  coord_flip() + 
+  labs(title = "Top 10 most common types meteorites",
+       y = "Number of meteorites",
+       x = "", 
+       caption = "Note: Figure includes meteorites found and fallen")
+
+
+```
+
+There are several categories that have 1000+ cases 
+
+# What is more associated 
