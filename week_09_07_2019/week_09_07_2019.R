@@ -7,6 +7,9 @@
 
 
 library(tidyverse)
+library(tidytext)
+library(ggpubr)
+
 
 wwc_outcomes <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-09/wwc_outcomes.csv")
 squads <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-09/squads.csv")
@@ -29,12 +32,9 @@ teams = check %>%
   top_n(5, n)
 
 
-library(tidytext)
-library(ggpubr)
-
   
   
-teams %>%
+plot = teams %>%
   ungroup %>%
   mutate(position = case_when(pos == "GK" ~ "Goalkepper", 
                               pos == "DF" ~ "Defender",
@@ -63,7 +63,7 @@ teams %>%
   font("subtitle", size = 9, color = "darkcyan")
   
 
-
+ggsave("week_09_07_2019/output/teams.png", plot,  width = 20, height = 12, units = "cm")
  
   
 
