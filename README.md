@@ -19,6 +19,8 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 
 - [Week 8](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-06-11) (11th June 2019): Plotting the geographical distribution of meteorites found and fell between 1900 and 2019. 
 
+- [Week 9](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-09) (9th July 2019): Plotting the football teams with more players for each position considering women World Cup Results. 
+
 
 These materials and work are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
