@@ -11,11 +11,6 @@ library(anytime)
 video_games <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-07-30/video_games.csv")
 
 
-video_games = owners_games %>%
-  select(-n) %>%
-  right_join(., video_games, by = "owners")
-
-
 # get the dates
 
 video_games = video_games %>%
