@@ -43,7 +43,8 @@ top_6 = video_games %>%
   labs(title = 'Top 5 video game publishers over time',
        subtitle = "By number of video games released in 2004-2018",
        y = 'Number of video games released', 
-       x = "") + 
+       x = "",
+       caption = "@EdudinGonzalo | Source: Steam Spy") + 
   theme_minimal() + 
   facet_wrap(.~publisher, scales = "free_y") + 
   transition_reveal(year) +
