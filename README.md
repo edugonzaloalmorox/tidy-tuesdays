@@ -23,6 +23,8 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 
 - [Week 10](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-07-30) (29th July 2019): Plotting the performance of the top 6 video game publishers with data from Steam Spy.
 
+- [Week 11](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-27) (27th August 2019): Plotting the most famous cameos in the Simpsons. 
+
 
 These materials and work are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
