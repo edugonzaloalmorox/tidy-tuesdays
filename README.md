@@ -28,6 +28,8 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 
 - [Week 12](https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-12-24) (24th December 2019): Plotting sentiments of Christmas songs. 
 
+- [Week 13](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md) (10th February): Plotting a check-outs and cancellations in Portuguese hotels.
+
 
 
 These materials and work are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
