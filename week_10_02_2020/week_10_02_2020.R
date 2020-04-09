@@ -54,6 +54,7 @@ dates_df %>%
   scale_y_discrete(expand=c(0,0)) +
   theme_minimal(base_size=8, "Monaco") +
   labs(title = "Hotel Check-Outs and Cancellations",
+       subitle = "Top countries by number of check outs and cancellations over the period",
        caption = "@EdudinGonzalo / Source: Tidytuesday - Hotel Bookings") +
   theme(
     legend.text=element_text(face="bold"),
