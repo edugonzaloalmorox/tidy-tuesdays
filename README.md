@@ -30,6 +30,8 @@ Repository for my contributions for the [TidyTuesday project](https://github.com
 
 - [Week 13](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md) (10th February): Plotting a check-outs and cancellations in Portuguese hotels.
 
+- [Week 14](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-04-07/readme.md) (6th April): Plotting the association between the mean distance, the number of wins and the nationality of stage winners in the Tour de France. 
+
 
 
 These materials and work are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
